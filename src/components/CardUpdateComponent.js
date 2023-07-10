@@ -19,7 +19,7 @@ const CardUpdateComponent = ({mode,setOpen}) => {
   const questions = [
     {
       number: 'Question-1',
-      question: 'Select all the full length colors that you have in your cupboard '
+      question: 'Select all the full length colors that you have in your wardrobe '
     },
     {
       number: 'Question-2',
