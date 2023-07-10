@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { NavLink, useParams } from "react-router-dom";
 import { ToastContainer, toast } from 'react-toastify';
 import { useNavigate } from "react-router-dom";
 import CircularProgress from '@mui/material/CircularProgress';
@@ -102,6 +102,7 @@ const ForgotPassword = () => {
                      <CircularProgress size={"1rem"}/>
                  </button>
                     }
+                    <p className='text-center pt-3'> <NavLink to={'/'} >Back to Login</NavLink></p>
                    
                 </form>
                 <ToastContainer />
