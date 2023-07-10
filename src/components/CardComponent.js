@@ -135,6 +135,7 @@ console.log(storedOptions);
                 type="checkbox"
                 checked={selectedOptions.includes(option)}
                 onChange={() => handleOptionSelect(option)}
+                style={{margin:"4px"}}
               />
               {option.name}
             </label>

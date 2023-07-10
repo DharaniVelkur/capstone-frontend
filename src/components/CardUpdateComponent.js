@@ -131,6 +131,7 @@ const CardUpdateComponent = ({mode,setOpen}) => {
                 type="checkbox"
                 checked={selectedOptions.includes(option)}
                 onChange={() => handleOptionSelect(option)}
+                style={{margin:"4px"}}
               />
               {option.name}
             </label>
