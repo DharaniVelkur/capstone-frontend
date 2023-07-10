@@ -1,0 +1,15 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    background: rgb(253,238,241);
+    background: linear-gradient(90deg, rgb(253,238,241) 0%, rgb(244, 227, 230) 21%, rgb(249, 239, 241) 100%);
+    /* font-family: 'Belanosima', sans-serif; */
+    /* font-family: 'Playfair Display', serif; */
+    /* font-family: 'Alegreya Sans', sans-serif; */
+    font-family: 'DM Sans', sans-serif;
+    overflow-x: hidden;
+}
+h1{
+    font-family: 'Secular One', sans-serif;
+}

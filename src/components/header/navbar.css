@@ -1,0 +1,39 @@
+header{
+    width: 100vw;
+    height: 70px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px  rgb(22, 20, 20);
+    /* background-color:rgb(240, 238, 238); */
+    /* background-color: rgb(217, 208, 209); */
+    /* background-color: rgba(44, 40, 40, 0.37); */
+    /* background-color: rgb(33,37,41); */
+}
+
+header nav{
+    max-width:85%;
+    height:100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.left_part{
+    display: flex;
+}
+
+/* header nav h1{
+    position: relative;
+    top: 4px ;
+    color: rgb(117, 118, 136);
+    font-family: 'Belanosima', sans-serif;
+} */
+
+header nav .avtar{
+    cursor: pointer;
+}
+
+img{
+    width: auto;
+    height: 50px;
+}

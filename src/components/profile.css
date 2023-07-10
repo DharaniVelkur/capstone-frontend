@@ -1,0 +1,19 @@
+.size{
+    height: 40px;
+    width: 60vw;
+}
+
+.user_details{
+    margin-top: 30px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.submitbtn{
+    background-color: rgb(255,63,108)!important;
+    color: white !important;
+    border: none;
+    border-radius: 5px;
+}
+.submitbtn:hover{
+    box-shadow: 0 0 5px white;
+}
