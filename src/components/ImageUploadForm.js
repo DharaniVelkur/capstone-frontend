@@ -37,7 +37,7 @@ const ImageUploadForm = ({mode}) => {
     formData.append("image_url", product_link);
     try {
       const response = await axios.post(
-        "http://localhost:8001/upload",
+        "https://capstone-backend-xuan.onrender.com/upload",
         formData,
         {
           headers: {
@@ -67,7 +67,7 @@ const ImageUploadForm = ({mode}) => {
   };
 
   const getallcolors = async () => {
-    const data = await fetch("http://localhost:8001/allcolors", {
+    const data = await fetch("https://capstone-backend-xuan.onrender.com/allcolors", {
       method: "GET",
       headers: {
         "Access-Control-Allow-Origin": true,

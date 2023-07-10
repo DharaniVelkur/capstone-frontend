@@ -59,7 +59,7 @@ const Register = () => {
 
       alert("password doesn't match");
     } else {
-      const data = await fetch('http://localhost:8001/register', {
+      const data = await fetch('https://capstone-backend-xuan.onrender.com/register', {
         method: 'POST',
         headers: {
           "Access-Control-Allow-Origin": true,

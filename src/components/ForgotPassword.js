@@ -12,7 +12,7 @@ const ForgotPassword = () => {
     let [spin,setSpin]=useState(false);
 
     const uservalid = async () => {
-        const response = await fetch(`http://localhost:8001/forgotpassword/${id}/${token}`, {
+        const response = await fetch(`https://capstone-backend-xuan.onrender.com/forgotpassword/${id}/${token}`, {
             method: "GET",
             headers: {
                 "Access-Control-Allow-Origin": true,
@@ -37,7 +37,7 @@ const ForgotPassword = () => {
             toast.error("Password is required!!")
         }
         else {
-            const res = await fetch(`http://localhost:8001/${id}/${token}`, {
+            const res = await fetch(`https://capstone-backend-xuan.onrender.com/${id}/${token}`, {
                 method: "POST",
                 headers: {
                     "Access-Control-Allow-Origin": true,

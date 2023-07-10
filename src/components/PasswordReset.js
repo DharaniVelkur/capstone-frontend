@@ -11,7 +11,7 @@ const PasswordReset = () => {
     const sendLink = async (e) => {
         setSpin(true);
         e.preventDefault();
-        const res = await fetch('http://localhost:8001/sendpasswordlink', {
+        const res = await fetch('https://capstone-backend-xuan.onrender.com/sendpasswordlink', {
             method: 'POST',
             headers: {
                 "Access-Control-Allow-Origin": true,

@@ -19,7 +19,7 @@ const RealDashboard = ({ mode }) => {
     const [skeleton,setSkeleton]=useState(true);
     const get_dress = () => {
         let token = localStorage.getItem('usertoken');
-        axios.get('http://localhost:8001/suggestion', {
+        axios.get('https://capstone-backend-xuan.onrender.com/suggestion', {
             headers: {
                 'Access-Control-Allow-Origin': true,
                 'Content-Type': 'application/json',
@@ -36,7 +36,7 @@ const RealDashboard = ({ mode }) => {
         let token = localStorage.getItem('usertoken');
         let userid = JSON.parse(localStorage.getItem('result'))._id;
 
-        const response = await fetch(`http://localhost:8001/like`, {
+        const response = await fetch(`https://capstone-backend-xuan.onrender.com/like`, {
             method: 'POST',
             headers: {
                 'Access-Control-Allow-Origin': true,

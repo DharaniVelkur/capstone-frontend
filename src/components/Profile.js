@@ -23,7 +23,7 @@ const Profile = ({mode}) => {
 
   const profiledata = async () => {
     let token = localStorage.getItem('usertoken');
-    const data = await fetch('http://localhost:8001/user', {
+    const data = await fetch('https://capstone-backend-xuan.onrender.com/user', {
       method: 'GET',
       headers: {
         'Access-Control-Allow-Origin': true,

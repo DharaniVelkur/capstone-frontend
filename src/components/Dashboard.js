@@ -17,7 +17,7 @@ const handlesurvey=()=>{
   useEffect(() => {
     if (isPaymentSuccess) {
     let token = localStorage.getItem("usertoken");
-      const check= fetch('http://localhost:8001/checkout',{
+      const check= fetch('https://capstone-backend-xuan.onrender.com/checkout',{
         method: 'POST',
         headers:{
           "Access-Control-Allow-Origin":true,

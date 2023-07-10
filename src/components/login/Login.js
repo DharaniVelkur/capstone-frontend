@@ -38,7 +38,7 @@ const Login = () => {
     setSpin(false);
       alert("Enter password")
   }else{
-    const data=await fetch('http://localhost:8001/login',{
+    const data=await fetch('https://capstone-backend-xuan.onrender.com/login',{
       method:"POST",
       headers:{
         "Access-Control-Allow-Origin": true,

@@ -36,7 +36,7 @@ const CardUpdateComponent = ({mode,setOpen}) => {
   // console.log(storedOptions);
 
   const getallcolors = async () => {
-    const data = await fetch('http://localhost:8001/allcolors', {
+    const data = await fetch('https://capstone-backend-xuan.onrender.com/allcolors', {
       method: 'GET',
       headers: {
         'Access-Control-Allow-Origin': true,
@@ -86,7 +86,7 @@ const CardUpdateComponent = ({mode,setOpen}) => {
     const updatedStoredOptions = [...storedOptions];
     updatedStoredOptions[currentQuestionIndex] = selectedOptions;
 
-    const data = await fetch('http://localhost:8001/updatecolors', {
+    const data = await fetch('https://capstone-backend-xuan.onrender.com/updatecolors', {
       method: 'POST',
       headers: {
         'Access-Control-Allow-Origin': true,

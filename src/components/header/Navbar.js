@@ -72,7 +72,7 @@ const Navbar = ({ mode, handletoggle }) => {
     };
     const handleLogout = async () => {
         let token = localStorage.getItem("usertoken");
-        const logoutuser = await fetch("http://localhost:8001/logout", {
+        const logoutuser = await fetch("https://capstone-backend-xuan.onrender.com/logout", {
             method: "GET",
             headers: {
                 "Access-Control-Allow-Origin": true,
