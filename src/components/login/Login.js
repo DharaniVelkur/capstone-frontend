@@ -96,7 +96,6 @@ const Login = () => {
   },[])
 
   return (
-    <>
     <div className='hello'>
       <div className='container d-flex flex-column justify-content-center align-items-center ' style={{ "top": "40px", "position": "relative" }}>
         <form className=' p-5' style={{ boxShadow: "0 0 10px grey", borderRadius: "15px" }}>
@@ -128,9 +127,7 @@ const Login = () => {
         <ToastContainer />
       </div>
     </div>
-     <p className='mt-5 text-center' style={{backgroundColor:'pink'}}>for admin: Email address:admin@gmail.com, password:123 </p>
-    
-    </>
+     
   )
 }
 
